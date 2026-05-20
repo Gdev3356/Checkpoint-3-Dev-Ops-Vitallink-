@@ -93,8 +93,9 @@ az vm show \
 
 echo ""
 echo "Próximos passos:"
-echo "  ssh $ADMIN@<4.221.38.123>"
-echo "  docker pull SEU_DOCKERHUB/vitallink:v1"
+echo "  ssh $ADMIN@<IP_PUBLICO>"
+echo "  docker pull rm563428/vitallink:v1"
 echo "  docker pull gvenzl/oracle-xe:21-slim"
-echo "  git clone https://github.com/SEU_GRUPO/vitallink.git"
-echo "  cd vitallink && docker compose up -d"
+echo "  git clone https://github.com/Gdev3356/Checkpoint-3-Dev-Ops-Vitallink-"
+echo "  cd Checkpoint-3-Dev-Ops-Vitallink-/"
+echo "  sudo docker compose up -d"

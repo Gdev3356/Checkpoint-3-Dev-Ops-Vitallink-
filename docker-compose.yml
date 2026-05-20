@@ -10,7 +10,6 @@ services:
       APP_USER_PASSWORD: "FiapSecret543"   # senha do APP_USER
     volumes:
       - oracle_data:/opt/oracle/oradata           # persistência de dados
-      - ./sql:/container-entrypoint-initdb.d       # scripts SQL de inicialização
     healthcheck:
       test: ["CMD-SHELL", "healthcheck.sh"]
       interval: 10s
