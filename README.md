@@ -151,8 +151,14 @@ TBL_CONSULTA
 ## 5. Executar localmente (8 passos)
 
 ### Passo 1 — Compilar
+Se tiver o Maven instalado em sua máquina:
 ```bash
 mvn clean package -DskipTests
+```
+
+Caso contrário:
+```bash
+.\mvnw clean package -DskipTests
 ```
 
 ### Passo 2 — Criar Dockerfile e docker-compose.yml
