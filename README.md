@@ -148,7 +148,7 @@ TBL_CONSULTA
 
 ---
 
-## 5. Executar localmente (8 passos do Challenge)
+## 5. Executar localmente (8 passos)
 
 ### Passo 1 — Compilar
 ```bash
