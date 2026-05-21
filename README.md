@@ -211,7 +211,7 @@ chmod +x azure-infra.sh && ./azure-infra.sh
 ```bash
 ssh azureuser@<IP_PUBLICO>
 git clone https://github.com/Gdev3356/Checkpoint-3-Dev-Ops-Vitallink-
-cd vitallink
+cd Checkpoint-3-Dev-Ops-Vitallink-/
 docker pull SEU_USUARIO/vitallink:v1
 docker pull gvenzl/oracle-xe:21-slim
 docker compose up -d
