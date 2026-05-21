@@ -220,6 +220,9 @@ docker logs vitallink-app --tail 50
 docker exec vitallink-app whoami     # deve retornar: appuser
 ```
 
+ONDE encontrar a aplicação?
+<IP_PUBLICO>:8080/swagger-ui/index.html#/Médicos/buscarPorId_1
+
 ### Passo 8 — CRUD externo (evidência para a banca)
 ```bash
 IP="<IP_PUBLICO_DA_VM>"
